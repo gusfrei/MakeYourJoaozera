@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MakeYourJoaozera</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MakeYourJoaozera</h1>
+        <div class="meme-container">
+            <img id="memeImage" src="joaozera.jpg" alt="Meme Image">
+            <textarea id="textInput" placeholder="Write your text here" oninput="updatePreview()" maxlength="50"></textarea>
+        </div>
+        <button onclick="generateMeme()">Magic Moment Button  </button>
+        <a id="downloadLink" style="display:none; margin-top: 20px;">Download Meme</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
